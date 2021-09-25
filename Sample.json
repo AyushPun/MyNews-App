@@ -1,0 +1,60 @@
+
+
+{
+    "status": "ok",
+    "totalResults": 4,
+    "articles": [
+      {
+        "source": {
+          "id": "hacker-news",
+          "name": "Hacker News"
+        },
+        "author": "Jonathan M. Gitlin",
+        "title": "Here’s how Lotus is going to build lightweight electric sports cars",
+        "description": "A company renowned for adding lightness is applying that approach to electrification.",
+        "url": "https://arstechnica.com/cars/2021/09/heres-how-lotus-is-going-to-build-lightweight-electric-sports-cars/",
+        "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2021/09/Project-LEVA-innovation-in-Lotus-E-Sports-architecture_1-760x380.jpg",
+        "publishedAt": "2021-09-25T09:52:21.1463195Z",
+        "content": "149 with 86 posters participating, including story author\r\n<ul><li>\r\n Lotus Cars is developing a lightweight electric vehicle architecture for sports cars. It uses a die-cast rear subframe that packa… [+4215 chars]"
+      },
+      {
+        "source": {
+          "id": "fox-sports",
+          "name": "Fox Sports"
+        },
+        "author": "FOX Sports",
+        "title": "Pro Football 101: Joe Posnanski ranks the 101 best NFL players ever",
+        "description": "FOX Sports Stories are written by our in-house staff, covering sporting events and news to provide fans with a unique perspective",
+        "url": "http://www.foxsports.com/stories/nfl/pro-football-101-joe-posnanski-ranks-the-101-best-nfl-players-ever",
+        "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2021/09/1408/814/pro-football-101_story-card-16x9.jpg?ve=1&tl=1",
+        "publishedAt": "2021-09-24T18:06:50Z",
+        "content": "Throughout the 2021 NFL season, Joe Posnanski is taking on the immense challenge of ranking the 101 best players in pro football history, in collaboration with FOX Sports. \r\nPosnanski's list will be … [+3368 chars]"
+      },
+      {
+        "source": {
+          "id": "fox-sports",
+          "name": "Fox Sports"
+        },
+        "author": "FOX Sports",
+        "title": "Dr. Matt Provencher evaluates Christian McCaffrey's hamstring injury",
+        "description": "FOX Sports' Dr. Matt Provencher weighs in on Christian McCaffrey's hamstring injury and shares how long he could be out.",
+        "url": "http://www.foxsports.com/stories/nfl/christian-mccaffrey-hamstring-injury-carolina-panthers-dr-matt-provencher",
+        "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2021/09/1408/814/9.10.21_DR-Matt-on-CMac_NFL-16x9.jpg?ve=1&tl=1",
+        "publishedAt": "2021-09-24T18:05:44Z",
+        "content": "Christian McCaffrey has been shelved once again.\r\nThe multidimensional star running back went down with a hamstring injury in Carolina's Thursday night win over the Houston Texans, pulling up after d… [+1207 chars]"
+      },
+      {
+        "source": {
+          "id": "the-washington-times",
+          "name": "The Washington Times"
+        },
+        "author": "The Washington Times http://www.washingtontimes.com",
+        "title": "Latest Quizzes",
+        "description": "Take a break from the hard news of the day and enjoy a quiz on entertainment, sports, history and politics only from The Washington Times.",
+        "url": "https://www.washingtontimes.com/quiz/",
+        "urlToImage": null,
+        "publishedAt": "2021-02-10T03:52:37.2719772Z",
+        "content": "Featured Quizzes\r\nAttention all William Shakespeare experts. Pinpoint the prose's origin plucked from one of his many famous plays in this multiple-choice challenge.\r\n Shares \r\nName these legendary c… [+32652 chars]"
+      }
+    ]
+  }
