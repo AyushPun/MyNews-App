@@ -1,4 +1,3 @@
-//  https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=f46672c39eb0493cbdf8f3c09d617f5d
 import React, { Component } from "react";
 import NewsItem from "./NewsItem";
 import Spinner from "./spinner";
@@ -35,7 +34,7 @@ export class News extends Component {
 
   async updateNews() {
     this.props.setProgress(10);
-    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=f46672c39eb0493cbdf8f3c09d617f5d&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
     let data = await fetch(url);
     this.props.setProgress(30);
     let parsedData = await data.json();
@@ -73,7 +72,7 @@ export class News extends Component {
     this.setState({
       page: this.state.page + 1,
     });
-    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=f46672c39eb0493cbdf8f3c09d617f5d&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
     let data = await fetch(url);
     let parsedData = await data.json();
     this.setState({
@@ -84,8 +83,8 @@ export class News extends Component {
   render() {
     return (
       <>
-        <h1 className="text-center my-4">
-          <strong>TOP HEADLINES</strong>
+        <h1 className="text-center my-4 display-3">
+          <strong id="topTitle">Top Headings</strong>
         </h1>
         {this.state.loading && <Spinner />}
         <InfiniteScroll
