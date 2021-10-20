@@ -25,16 +25,6 @@ export default class App extends Component {
             progress={this.state.progress}
           />
           <Switch>
-            <Route exact path="/">
-              <News
-                setProgress={this.setProgress}
-                apiKey={this.apiKey}
-                key="general"
-                pageSize={this.pageSize}
-                country="in"
-                category="general"
-              />
-            </Route>
             <Route exact path="/business">
               <News
                 setProgress={this.setProgress}
@@ -103,6 +93,16 @@ export default class App extends Component {
                 pageSize={this.pageSize}
                 country="in"
                 category="technology"
+              />
+            </Route>
+            <Route path="/">
+              <News
+                setProgress={this.setProgress}
+                apiKey={this.apiKey}
+                key="general"
+                pageSize={this.pageSize}
+                country="in"
+                category="general"
               />
             </Route>
           </Switch>
