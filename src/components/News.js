@@ -58,7 +58,7 @@ const News = (props) => {
 
   return (
     <>
-      <h1 className="text-center my-4 display-3">
+      <h1 className="text-center my-3 display-3">
         <strong id="topTitle">Top Headings</strong>
       </h1>
       {loading && <Spinner />}
